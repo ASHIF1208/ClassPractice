@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.h{
+    width: 30%;
+margin: auto;
+    height: 200px;
+    background-color: aqua;
+}
+.h1{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+}
+.h2{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}

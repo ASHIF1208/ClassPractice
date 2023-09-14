@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "qw";
+    src: url('QwitcherGrypen-Regular.ttf');
+}
+table,th,td{
+    /* background-color: whitesmoke;
+    border-style: groove; */
+    
+    text-align: center;
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-size:2rem;
+    font-weight:900;
+    font-family:'qw','verdana', 'sans-serif';
+}
+.Head{
+    background-color: green;
+    color: white;
+}
+.Head01{
+    background-color: orange;
+    color: white;
+}
+.Head02{
+    background-color: violet;
+    color: white;
+}
+.Head03{
+    background-color: indigo;
+    color: white;
+}
+table{
+    width: 100%;
+}

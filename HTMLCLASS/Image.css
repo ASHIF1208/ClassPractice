@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box ;
+    margin: 0;
+    padding: 0;
+}
+img{
+    border: 2px groove black;
+    border-radius: 10 00px;
+    height: 300px;
+    width: 300px;
+    
+}
+div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+p{
+    display: flex;
+    color: crimson;
+    justify-content: center;
+}

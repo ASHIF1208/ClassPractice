@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Forms{
+    width: 60%;
+    display: grid;
+    border: 2px solid black;
+    align-items: center;
+}
+.Forms div{
+
+    width: 100%;
+    
+}
+input{
+    width: 50%;
+}
+label{
+    width: 400px;
+    border: 1px solid black;
+}

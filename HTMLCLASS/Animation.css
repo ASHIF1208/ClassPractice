@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.spin{
+    display:none;
+}
+.spinner {
+    width: 100px;
+    height: 100px;
+    border: 10px solid #3498db;
+    border-top: 10px solid transparent;
+    border-radius: 5%;
+    animation: spin 2s;   
+}
+h4{
+    text-align: center;
+}
+img {
+    width: 80%;
+    height: 80vh;
+}
+.cl{
+    font-size: 30px;
+    color: crimson;
+    position: absolute;
+    top:150px;
+    left: 450px;
+    animation:5s;
+}
+
+.Touch:hover .spin{
+    display: block;
+}
+.Touch:hover .img{
+    display: none;
+}
+
+
+
+@keyframes spin {
+    0% { 
+        transform: rotate(0deg); 
+    }
+    100% { 
+        transform: rotate(360deg);
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5bkA1xe9U89jlRC2bllEPdRVhXtPKTzcMoA&usqp=CAU');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+

@@ -1,0 +1,51 @@
+h3{
+    background-color: darkgreen; color: darkgray;
+}
+#p1{
+    background-color: deeppink;
+}
+#p2{
+    background-color: greenyellow;
+}
+.p1{
+    background-color: darkgoldenrod;
+}
+.p2{
+    background-color: dodgerblue;
+}
+.p5{
+    background-color: rgb(216, 35, 68);  
+}
+.gh{
+    background-color: deeppink;
+}
+ol{
+    list-style-type: lower-roman;
+}
+ul{
+    list-style-type: square;
+}
+img{
+    float:left;
+}
+p{
+    clear:both;
+}
+li{
+  display: inline-block;
+  list-style-type:none; 
+  background-color: black;
+  color: aliceblue;
+  }
+  .center {
+    display: block;
+    margin-left:0%;
+    margin-right:0%;
+    width: 50%;
+  }
+  .avatar {
+    vertical-align: middle;
+    width: 300px;
+    height: 400px;
+    border-radius: 50%;
+  }
